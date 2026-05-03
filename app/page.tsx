@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Projects from "./Projects";
+import Experience from "./Experience"; 
 
 export default function Home() {
   return (
@@ -187,6 +188,8 @@ export default function Home() {
 
   </div>
       </section>
+      {/* EXPERIENCE */}
+      <Experience />
       <Projects />
 
   {/* SKILLS */}

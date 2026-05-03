@@ -7,14 +7,14 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Portfolio Website",
-      desc: "Website portfolio modern",
-      image: "/project1.jpg",
+      title: "SIM Website",
+      desc: "Website Sistem Informasi Mahasiswa",
+      image: "/SIM.jpg",
     },
     {
-      title: "Landing Page",
-      desc: "Website promosi UMKM",
-      image: "/project2.jpg",
+      title: "Kasir Website",
+      desc: "Aplikasi kasir untuk UMKM",
+      image: "/kasir.jpg",
     },
     {
       title: "UI Design",
