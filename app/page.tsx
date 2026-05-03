@@ -44,9 +44,11 @@ export default function Home() {
       <section id="home" className="relative px-6 md:px-20 py-32 flex flex-col md:flex-row items-center justify-between">
 
         <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }}>
-          <p className="text-gray-400 tracking-widest text-sm">
-            MARIST ZAIMAH
-          </p>
+          <h1 className="text-2xl md:text-3xl font-bold mb-4 
+          bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 
+          bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(168,85,247,0.8)]">
+            Marist Zaimah
+          </h1>
 
           <h1 className="text-4xl md:text-6xl font-bold mt-2">
             HAY! I'M MARIST
@@ -68,16 +70,38 @@ export default function Home() {
             />
           </div>
 
-          <p className="mt-5 text-gray-300 max-w-lg">
-            Web developer dari Gresik dengan fokus pada desain modern,
-            interaktif, dan user-friendly.
-          </p>
+         <p className="mt-5 text-gray-300 max-w-lg">
+          Web developer dari Gresik dengan fokus pada desain modern,
+          interaktif, dan user-friendly.
+        </p>
 
-          <a href="#contact">
-            <button className="mt-6 bg-purple-600 px-6 py-3 rounded-full hover:scale-105 transition shadow-lg shadow-purple-500/50">
-              Contact Me
-            </button>
+        {/* BUTTON GROUP */}
+        <div className="mt-8 flex gap-4 flex-wrap">
+
+          {/* DOWNLOAD CV */}
+          <a
+            href="/cv.pdf"
+            download
+            className="px-6 py-3 rounded-full 
+            bg-gradient-to-r from-purple-500 to-blue-500 
+            hover:scale-105 transition 
+            shadow-lg shadow-purple-500/30"
+          >
+            Download CV
           </a>
+
+          {/* HIRE ME */}
+          <a
+            href="#contact"
+            className="px-6 py-3 rounded-full 
+            border border-purple-500 
+            hover:bg-purple-500 hover:text-white 
+            transition"
+          >
+            Hire Me
+          </a>
+
+</div>
         </motion.div>
 
         {/* ICON FLOAT */}
@@ -107,16 +131,24 @@ export default function Home() {
           </p>
 
           <div className="flex gap-6 mt-6">
-            <div className="bg-white/10 p-4 rounded-xl">
-              <p className="text-xl font-bold">5+</p>
-              <p>Projects</p>
-            </div>
 
-            <div className="bg-white/10 p-4 rounded-xl">
-              <p className="text-xl font-bold">1+</p>
-              <p>Experience</p>
-            </div>
-          </div>
+  <a 
+    href="#projects" 
+    className="bg-white/10 p-4 rounded-xl hover:scale-105 transition cursor-pointer"
+  >
+    <p className="text-xl font-bold text-purple-400">5+</p>
+    <p>Projects</p>
+  </a>
+
+  <a 
+    href="#experience" 
+    className="bg-white/10 p-4 rounded-xl hover:scale-105 transition cursor-pointer"
+  >
+    <p className="text-xl font-bold text-purple-400">1+</p>
+    <p>Experience</p>
+  </a>
+
+</div>
         </motion.div>
       </section>
 
@@ -246,55 +278,6 @@ export default function Home() {
       animation: marquee 15s linear infinite;
     }
   `}</style>
-
-</section>
-
-{/* EXPERIENCE */}
-<section className="px-6 md:px-20 py-20 relative">
-
-  <h2 className="text-4xl font-bold text-center mb-16">
-    My Journey
-  </h2>
-
-  {/* LINE GLOW */}
-  <div className="absolute left-1/2 top-0 w-[2px] h-full bg-purple-500/30 blur-sm"></div>
-
-  <div className="space-y-20">
-
-    {/* ITEM 1 */}
-    <div className="flex flex-col md:flex-row items-center gap-6">
-
-      <div className="md:w-1/2 text-right">
-        <h3 className="text-xl font-bold">Freelance Web Developer</h3>
-        <p className="text-gray-400">2024 - Sekarang</p>
-        <p className="text-gray-300 mt-2">
-          Membuat website modern dan interaktif.
-        </p>
-      </div>
-
-      <div className="w-4 h-4 bg-purple-500 rounded-full shadow-lg shadow-purple-500"></div>
-
-      <div className="md:w-1/2"></div>
-    </div>
-
-    {/* ITEM 2 */}
-    <div className="flex flex-col md:flex-row items-center gap-6">
-
-      <div className="md:w-1/2"></div>
-
-      <div className="w-4 h-4 bg-purple-500 rounded-full shadow-lg shadow-purple-500"></div>
-
-      <div className="md:w-1/2">
-        <h3 className="text-xl font-bold">UI Designer</h3>
-        <p className="text-gray-400">2023</p>
-        <p className="text-gray-300 mt-2">
-          Mendesain UI modern menggunakan Figma.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
 
 </section>
 

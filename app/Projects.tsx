@@ -25,7 +25,7 @@ export default function Projects() {
 
   return (
     
-    <section className="px-6 md:px-20 py-20 text-white">
+    <section id="projects" className="px-6 md:px-20 py-20">
       <h2 className="text-4xl font-bold text-center mb-10">
         My Projects
       </h2>
