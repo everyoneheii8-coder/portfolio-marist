@@ -101,7 +101,7 @@ export default function Home() {
             Hire Me
           </a>
 
-</div>
+        </div>
         </motion.div>
 
         {/* ICON FLOAT */}
@@ -132,34 +132,34 @@ export default function Home() {
 
           <div className="flex gap-6 mt-6">
 
-  <a 
-    href="#projects" 
-    className="bg-white/10 p-4 rounded-xl hover:scale-105 transition cursor-pointer"
-  >
-    <p className="text-xl font-bold text-purple-400">5+</p>
-    <p>Projects</p>
-  </a>
+          <a 
+            href="#projects" 
+            className="bg-white/10 p-4 rounded-xl hover:scale-105 transition cursor-pointer"
+          >
+            <p className="text-xl font-bold text-purple-400">5+</p>
+            <p>Projects</p>
+          </a>
 
-  <a 
-    href="#experience" 
-    className="bg-white/10 p-4 rounded-xl hover:scale-105 transition cursor-pointer"
-  >
-    <p className="text-xl font-bold text-purple-400">1+</p>
-    <p>Experience</p>
-  </a>
+          <a 
+            href="#experience" 
+            className="bg-white/10 p-4 rounded-xl hover:scale-105 transition cursor-pointer"
+          >
+            <p className="text-xl font-bold text-purple-400">1+</p>
+            <p>Experience</p>
+          </a>
 
-</div>
+        </div>
         </motion.div>
       </section>
 
       {/* EDUCATION */}
       <section id="education" className="px-6 md:px-20 py-20 relative">
 
-  <h2 className="text-4xl font-bold text-center mb-16">
-    My Academic Journey
-  </h2>
+      <h2 className="text-4xl font-bold text-center mb-16">
+        My Academic Journey
+      </h2>
 
-  <div className="relative border-l-2 border-purple-500 ml-4 space-y-12">
+      <div className="relative border-l-2 border-purple-500 ml-4 space-y-12">
 
     {/* ITEM 1 */}
     <motion.div
@@ -279,10 +279,10 @@ export default function Home() {
     }
   `}</style>
 
-</section>
+    </section>
 
-{/* SERVICES */}
-<section className="px-6 md:px-20 py-20 text-center">
+    {/* SERVICES */}
+    <section className="px-6 md:px-20 py-20 text-center">
 
   <h2 className="text-4xl font-bold mb-16">
     What I Do
@@ -359,20 +359,26 @@ export default function Home() {
         <div className="flex justify-center gap-6 flex-wrap">
 
           <a href="https://wa.me/6287851853393" target="_blank">
-            <button className="bg-green-500 px-6 py-3 rounded-full hover:scale-110 transition">
-              WhatsApp
+            <button className="bg-green-500 px-6 py-3 rounded-full hover:scale-110 transition flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+              </svg>
             </button>
           </a>
 
           <a href="https://instagram.com/maristtzz" target="_blank">
-            <button className="bg-pink-500 px-6 py-3 rounded-full hover:scale-110 transition">
-              Instagram
+            <button className="bg-pink-500 px-6 py-3 rounded-full hover:scale-110 transition flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.017 0C8.396 0 7.996.014 6.79.067 5.584.12 4.775.302 4.082.566c-.726.28-1.34.638-1.956 1.254C1.51 2.436 1.152 3.05.872 3.776c-.264.693-.446 1.502-.5 2.708C.314 7.69.3 8.09.3 11.711c0 3.621.014 4.021.067 5.227.054 1.206.236 2.015.5 2.708.228.772.586 1.34 1.202 1.956.616.616 1.184.974 1.956 1.202.693.264 1.502.446 2.708.5C7.69 23.686 8.09 23.7 11.711 23.7c3.621 0 4.021-.014 5.227-.067 1.206-.054 2.015-.236 2.708-.5.772-.228 1.34-.586 1.956-1.202.616-.616.974-1.184 1.202-1.956.264-.693.446-1.502.5-2.708.053-1.206.067-1.606.067-5.227 0-3.621-.014-4.021-.067-5.227-.054-1.206-.236-2.015-.5-2.708-.228-.772-.586-1.34-1.202-1.956-.616-.616-1.184-.974-1.956-1.202C19.948.446 19.139.264 18.433.5 17.227.054 16.827.04 13.206.04c-3.621 0-4.021.014-5.227.067C6.773.12 5.964.302 5.271.566c.726-.28 1.34-.638 1.956-1.254C7.843.638 8.411.28 9.183.016c.693-.264 1.502-.446 2.708-.5C8.09.014 8.49 0 12.111 0h.906zM11.711 5.4c-3.621 0-6.561 2.94-6.561 6.561s2.94 6.561 6.561 6.561 6.561-2.94 6.561-6.561-2.94-6.561-6.561-6.561zm0 10.846c-2.34 0-4.241-1.901-4.241-4.241s1.901-4.241 4.241-4.241 4.241 1.901 4.241 4.241-1.901 4.241-4.241 4.241zm6.406-11.846c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/>
+              </svg>
             </button>
           </a>
 
           <a href="https://tiktok.com/@maristaja_" target="_blank">
-            <button className="bg-black px-6 py-3 rounded-full hover:scale-110 transition">
-              TikTok
+            <button className="bg-black px-6 py-3 rounded-full hover:scale-110 transition flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+              </svg>
             </button>
           </a>
 
