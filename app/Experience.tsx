@@ -25,6 +25,13 @@ const experiences = [
     desc: "Membantu ketua dalam mengelola organisasi dan pengambilan keputusan strategis.",
     image: "/waketum.jpg",
   },
+  {
+  title: "IT Intern",
+  org: "PT Swabina Gatra",
+  year: "2025",
+  desc: "Membantu pengelolaan sistem informasi, troubleshooting perangkat, serta mendukung operasional teknologi informasi perusahaan.",
+  image: "/swabina.jpg",
+},
 ];
 
 export default function Experience() {
@@ -41,7 +48,7 @@ export default function Experience() {
   };
 
   return (
-    <section id="experience" className="py-20 text-center">
+    <section id="experience" className="py-14 md:py-20 text-center">
       <h2 className="text-4xl font-bold mb-10">
   Experience & Leadership Journey
 </h2>

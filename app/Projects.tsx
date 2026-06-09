@@ -49,12 +49,12 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="px-6 md:px-20 py-20">
+    <section id="projects" className="px-6 md:px-16 lg:px-20 py-14 md:py-20">
       <h2 className="text-4xl font-bold text-center mb-10">
         My Projects
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {projects.map((item, i) => (
           <div
             key={i}

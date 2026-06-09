@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
       </div>
-      <section id="home" className="relative px-6 md:px-20 py-32 flex flex-col md:flex-row items-center justify-between">
+      <section id="home" className="relative px-6 md:px-16 lg:px-20 py-20 md:py-28 flex flex-col md:flex-row items-center justify-between gap-10">
 
         <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }}>
           <h1 className="text-2xl md:text-3xl font-bold mb-4 
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="px-6 md:px-20 py-20 grid md:grid-cols-2 gap-10 items-center">
+      <section id="about" className="px-6 md:px-16 lg:px-20 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
 
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src="/profile.jpg" className="rounded-2xl border border-purple-500 shadow-lg shadow-purple-500/30" />
@@ -160,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* EDUCATION */}
-      <section id="education" className="px-6 md:px-20 py-20 relative">
+      <section id="education" className="px-6 md:px-16 lg:px-20 py-14 md:py-20 relative">
 
       <h2 className="text-4xl font-bold text-center mb-16">
         My Academic Journey
@@ -232,7 +232,7 @@ export default function Home() {
       <Projects />
 
   {/* SKILLS */}
-<section className="px-6 md:px-20 py-20 overflow-hidden">
+<section className="px-6 md:px-16 lg:px-20 py-14 md:py-20 overflow-hidden">
 
   <h2 className="text-4xl font-bold text-center mb-12">
     My Skills
@@ -289,13 +289,13 @@ export default function Home() {
     </section>
 
     {/* SERVICES */}
-    <section className="px-6 md:px-20 py-20 text-center">
+    <section className="px-6 md:px-16 lg:px-20 py-14 md:py-20 text-center">
 
   <h2 className="text-4xl font-bold mb-16">
     What I Do
   </h2>
 
-  <div className="flex flex-wrap justify-center gap-10">
+  <div className="flex flex-wrap justify-center gap-6">
 
     {/* ITEM */}
     <div className="relative group w-60 h-60">
@@ -356,14 +356,14 @@ export default function Home() {
 </section>
 
       {/* CONTACT */}
-      <section id="contact" className="px-6 md:px-20 py-20 text-center">
+      <section id="contact" className="px-6 md:px-16 lg:px-20 py-14 md:py-20 text-center">
         <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
 
         <p className="text-gray-300 mb-6">
           Hubungi saya melalui platform berikut:
         </p>
 
-        <div className="flex justify-center gap-6 flex-wrap">
+        <div className="flex justify-center gap-4 flex-wrap">
 
           <a href="https://wa.me/6287851853393" target="_blank">
             <button className="bg-green-500 px-6 py-3 rounded-full hover:scale-110 transition flex items-center gap-2">
