@@ -17,9 +17,9 @@ export default function Projects() {
       image: "/kasir.jpg",
     },
     {
-      title: "UI Design",
-      desc: "Desain aplikasi modern",
-      image: "/project3.jpg",
+      title: "WEB Digital Bussiness",
+      desc: "website untuk memenuhi kebutuhan sosial media",
+      image: "/SMM.jpg",
     },
   ];
 
