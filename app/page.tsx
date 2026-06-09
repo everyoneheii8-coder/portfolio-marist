@@ -89,7 +89,14 @@ export default function Home() {
           >
             Download CV
           </a>
-
+              <a
+            href="https://github.com/everyoneheii8-coder"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-full border border-purple-500 hover:bg-purple-500 hover:text-white transition"
+          >
+            GitHub
+          </a>
           {/* HIRE ME */}
           <a
             href="#contact"
@@ -384,7 +391,46 @@ export default function Home() {
 
         </div>
       </section>
+      {/* FOOTER */}
+      <footer className="border-t border-purple-500/20 py-10 text-center">
+        <h3 className="text-lg font-bold text-purple-400">
+          Marist Zaimah
+        </h3>
 
+        <p className="text-gray-400 mt-2">
+          Web Developer & Informatics Student
+        </p>
+
+        <div className="flex justify-center gap-6 mt-4">
+          <a
+            href="https://github.com/everyoneheii8-coder"
+            target="_blank"
+            className="hover:text-purple-400"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://instagram.com/maristtzz"
+            target="_blank"
+            className="hover:text-purple-400"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            className="hover:text-purple-400"
+          >
+            LinkedIn
+          </a>
+        </div>
+
+        <p className="text-xs text-gray-500 mt-6">
+          © 2026 Marist Zaimah. Built with Next.js & Tailwind CSS.
+        </p>
+      </footer>
     </main>
   );
 }
